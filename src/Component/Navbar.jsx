@@ -4,14 +4,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className='navbar'>
-                <div className='nav-logo'>News-logo</div>
-                <div className='nav-links'>
-                    <ul>
-                        <li>Finance</li>
-                        <li>Politics</li>
-                        <li>Sports</li>
-                    </ul>
-                </div>
+                <h1>News-Website</h1>
             </div>
         </nav>
     )

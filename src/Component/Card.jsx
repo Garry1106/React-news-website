@@ -8,8 +8,8 @@ const Card = ({data}) => {
                     <img src={data.urlToImage} />
                 </div>
                 <div className="card-content">
-                    <p>{data.id}</p>
                     <h1 className="card-title">{data.title}</h1>
+                    <h3 className="card-source">{data.source.name}{data.publishedAt}</h3>
                     <p className="card-desc">{data.description}</p>
                 </div>
             </div>

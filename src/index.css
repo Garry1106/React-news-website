@@ -10,47 +10,23 @@ body
 
 nav
 {
-    height: 90px;
+    height: 70px;
     width: 100vw;
-    background-color: beige;
+    background-color: rgb(247, 10, 10);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-inline: 170px;
-}
-.navbar
-{
-    height: inherit;
-    width: 1000px;
-    margin:auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* border: 1px solid black; */
-}
-.nav-logo
-{
-    font-size: 30px;
-}
-.nav-links ul 
-{
-    display: flex;
-    align-items: center;
-    list-style:none;
-    justify-content: space-around;
-    gap: 20px;
-}
-ul li 
-{
-    font-size: 25px;
-    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: white;
 }
 .container
 {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     padding: 30px;
-    padding-inline: 165px;
+    padding-inline: 100px;
 }
 .card
 {
@@ -58,12 +34,13 @@ ul li
     width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card-header
 {
-    height: 180px;
+    height:40%;
 }
 .card-header img
 {
@@ -77,16 +54,16 @@ ul li
 }
 .card-title
 {
-    font-size:30px;
+    font-size:20px;
     margin: 5px auto;
 }
 .card-source
 {
     font-size: 15px;
-    margin-bottom:5px;
+    margin:10px auto;
 }
 .card-desc
 {
     margin: 5px 0px;
-    font-size: 19px;
+    font-size: 17px;
 }
